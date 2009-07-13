@@ -53,7 +53,7 @@ response = SAML.Response(assertion, privatekey, certificate)
 
 
  
-values = {"TARGET" : "http://www.visa.com/secure/",
+values = {"TARGET" : "http://www.example.com/secure/",
         "SAMLResponse" : base64.b64encode(response.getXML())}
 
 
