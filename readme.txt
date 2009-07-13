@@ -1,6 +1,8 @@
+Building the distribution:
 
-This is a module for working with SAML.
+# For Unix systems
+python setup.py bdist --format=tar
 
-It requires the M2Crypto module.
+# For Windows systems
+python setup.py bdist --format=wininst
 
-C:\Python25\python.exe setup.py bdist_wininst
